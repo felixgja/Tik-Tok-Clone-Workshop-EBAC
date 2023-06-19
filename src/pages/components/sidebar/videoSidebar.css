@@ -1,0 +1,21 @@
+.videoSidebar {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+}
+
+.videoSidebar__options {
+  padding: 20px;
+  text-align: center;
+  filter: invert(1);
+}
+
+@media only screen and (max-width: 440px) {
+  .videoSidebar{
+    top: 40%;
+  }
+
+  .videoSidebar__options{
+    padding-bottom: 5px;
+  }
+}
